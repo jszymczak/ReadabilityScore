@@ -8,13 +8,15 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleJvm" value="13" />
+        <option name="gradleJvm" value="#JAVA_INTERNAL" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Problems/Convert a date" />
+            <option value="$PROJECT_DIR$/Problems/End sequence" />
+            <option value="$PROJECT_DIR$/Problems/Parse url" />
             <option value="$PROJECT_DIR$/Problems/Piece of alphabet" />
-            <option value="$PROJECT_DIR$/Readability Score (1)/task" />
+            <option value="$PROJECT_DIR$/Problems/Start sequence of words" />
             <option value="$PROJECT_DIR$/Readability Score/task" />
             <option value="$PROJECT_DIR$/util" />
           </set>
