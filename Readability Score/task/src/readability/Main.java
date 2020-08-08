@@ -1,5 +1,7 @@
 package readability;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -7,9 +9,23 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
         String output;
-        int lengthOfString;
-        lengthOfString = input.length();
-        output = lengthOfString > 100 ? "HARD" : "EASY";
-        System.out.print(output);
+        String[] separateStatements;
+        separateStatements = input.split("[.!?]");
+        int numberOfStatements = separateStatements.length;
+        int sumOfWords = 0;
+        double averageOfWords = 0.0;
+        String[][] separateWords = new String[numberOfStatements][];
+
+        for (int i = 0; i < numberOfStatements; i++) {
+            separateWords[i] = separateStatements[i].split(" ");
+        }
+
+        for (int i = 0; i < separateWords.length; i++) {
+            sumOfWords += separateWords[i].length;
+        }
+        averageOfWords = sumOfWords / numberOfStatements;
+        output = averageOfWords > 10 ? "HARD" : "EASY";
+
+        System.out.println(output);
     }
 }
