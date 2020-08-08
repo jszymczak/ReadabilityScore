@@ -9,6 +9,13 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
         String output;
+        //TASK 1 COMPLETED BEGIN
+        int lengthOfString;
+        lengthOfString = input.length();
+        output = lengthOfString > 100 ? "HARD" : "EASY";
+        System.out.print(output);
+        //TASK 1 COMPLETED END
+
         String[] separateStatements;
         separateStatements = input.split("[.!?]");
         int numberOfStatements = separateStatements.length;
