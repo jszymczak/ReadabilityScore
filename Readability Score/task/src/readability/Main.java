@@ -9,6 +9,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
         String output;
+
         //TASK 1 COMPLETED BEGIN
 //        int lengthOfString;
 //        lengthOfString = input.length();
