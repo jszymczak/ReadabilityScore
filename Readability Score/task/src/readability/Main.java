@@ -24,7 +24,6 @@ public class Main {
         double characters = 0.0;
         double score;
         int roundedScore;
-        String yearOld = "";
 
         try (Scanner scanner = new Scanner(file)) {
             while (scanner.hasNext()) {
