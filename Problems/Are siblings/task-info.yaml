@@ -1,0 +1,49 @@
+type: code
+custom_name: Are siblings?
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    import java.io.File;
+
+    class Siblings {
+
+        public static boolean areSiblings(File f1, File f2) {
+            // implement me
+        }
+    }
+  learner_created: false
+- name: src/MaxValue.java
+  visible: true
+  learner_created: true
+- name: src/files/dataset_91069.txt
+  visible: true
+  learner_created: true
+- name: src/MaxPopulation.java
+  visible: true
+  learner_created: true
+- name: src/files/dataset_91065.txt
+  visible: true
+  learner_created: true
+- name: src/CountEvenNumbers.java
+  visible: true
+  learner_created: true
+- name: src/files/dataset_91033.txt
+  visible: true
+  learner_created: true
+- name: src/SumOfNumbers.java
+  visible: true
+  learner_created: true
+- name: src/files/dataset_91022.txt
+  visible: true
+  learner_created: true
+- name: src/CountNumbers.java
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/8095
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/8095">JetBrains
+    Academy</a></html>
+  time: Sun, 23 Aug 2020 14:06:15 UTC
+record: -1
