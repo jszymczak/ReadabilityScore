@@ -199,6 +199,16 @@ files:
         }
     }
   learner_created: false
+- name: src/in.txt
+  visible: true
+  learner_created: true
+- name: src/inTwo.txt
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/39/stages/207/implement
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/39/stages/207/implement">JetBrains
+    Academy</a>
+  time: Sun, 23 Aug 2020 20:42:39 UTC
 record: -1
