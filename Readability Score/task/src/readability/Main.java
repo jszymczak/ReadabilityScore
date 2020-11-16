@@ -5,7 +5,6 @@ import java.io.FileNotFoundException;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
-import java.util.Random;
 import java.util.Scanner;
 
 import static readability.lettersHandler.isVowel;
