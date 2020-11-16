@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Random;
 import java.util.Scanner;
 
 import static readability.lettersHandler.isVowel;
@@ -13,7 +14,6 @@ public class Main {
     public static void main(String[] args) {
 //        String fileName = "inThree.txt";
 //        String nameOfFile = "D:\\REPO\\ReadabilityScore\\Readability Score\\task\\src\\" + fileName;
-
         String nameOfFile = args[0];
         ArrayList<String> inputFile = new ArrayList<>();
         DecimalFormat df = new DecimalFormat("#.##");

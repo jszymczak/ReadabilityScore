@@ -16,18 +16,6 @@ topics:
   0:
   - title: Units of information
     theory_id: 6865
-  - title: Arithmetic operations
-    theory_id: 3519
-  - title: Integer types and operations
-    theory_id: 3565
-  - title: Boolean and logical operations
-    theory_id: 3516
-  - title: Relational operators
-    theory_id: 3512
-  - title: Increment and decrement
-    theory_id: 5008
-  - title: Characters
-    theory_id: 3514
   - title: Introduction to operating systems
     theory_id: 9704
   - title: Command line overview
@@ -54,6 +42,18 @@ topics:
     theory_id: 3513
   - title: Scanning the input
     theory_id: 9055
+  - title: Arithmetic operations
+    theory_id: 3519
+  - title: Integer types and operations
+    theory_id: 3565
+  - title: Boolean and logical operations
+    theory_id: 3516
+  - title: Relational operators
+    theory_id: 3512
+  - title: Increment and decrement
+    theory_id: 5008
+  - title: Characters
+    theory_id: 3514
   - title: Conditional statement
     theory_id: 3503
   - title: Ternary operator
@@ -118,8 +118,6 @@ topics:
   - title: Instance methods
     theory_id: 3495
   2:
-  - title: Floating-point types
-    theory_id: 3517
   - title: What is an exception
     theory_id: 3497
   - title: Hierarchy of exceptions
@@ -130,6 +128,8 @@ topics:
     theory_id: 3635
   - title: Reading files
     theory_id: 3636
+  - title: Floating-point types
+    theory_id: 3517
   - title: Arrays as parameters
     theory_id: 3594
   - title: Errors in programs
