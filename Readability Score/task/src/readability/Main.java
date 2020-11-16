@@ -13,7 +13,6 @@ public class Main {
     public static void main(String[] args) {
 //        String fileName = "inThree.txt";
 //        String nameOfFile = "D:\\REPO\\ReadabilityScore\\Readability Score\\task\\src\\" + fileName;
-
         String nameOfFile = args[0];
         ArrayList<String> inputFile = new ArrayList<>();
         DecimalFormat df = new DecimalFormat("#.##");
